@@ -24,7 +24,7 @@ class Thrift092 < Formula
 
   bottle do
     cellar :any
-    revision 2
+    rebuild 1 
     sha256 "4e6e392c6f93344c3f059c3967623aed6f5ea61fd44aaffb9b842c6a9aa033be" => :el_capitan
     sha256 "17c50eb2509a29e78f2e0bd402d015de4ea847c7173073e6829fef4daaf23123" => :yosemite
     sha256 "23829d79de301162576c53e51d16789dfa0584936b44bef8aa5cae2ff754aba7" => :mavericks
